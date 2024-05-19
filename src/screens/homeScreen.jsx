@@ -11,14 +11,14 @@ import {
 } from 'react-native';
 
 
-function HomeScreen(): React.JSX.Element {
+function HomeScreen( navigation ): React.JSX.Element {
 
   return (
     <SafeAreaView>
       <StatusBar
       />
       <ScrollView>
-        <View>
+        <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
           <Text>This is a test to view if our HomeScreen is working</Text>
           <Button title='SixMonthCourse'></Button>
         </View>
