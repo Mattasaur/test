@@ -7,6 +7,7 @@ import {
   Text,
   useColorScheme,
   View,
+  Button
 } from 'react-native';
 
 
@@ -18,7 +19,7 @@ function App(): React.JSX.Element {
       />
       <ScrollView>
         <View>
-          <Text>Hi</Text>
+          <Button title='SixMonthCourse'></Button>
         </View>
       </ScrollView>
     </SafeAreaView>

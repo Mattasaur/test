@@ -12,13 +12,14 @@ import {
 
 function App(): React.JSX.Element {
 
+
+
   return (
     <SafeAreaView>
-      <StatusBar
-      />
+      <StatusBar/>
       <ScrollView>
         <View>
-          <Text>Hi</Text>
+          <h1>Hi</h1>
         </View>
       </ScrollView>
     </SafeAreaView>
