@@ -7,19 +7,22 @@ import {
   Text,
   useColorScheme,
   View,
+  Button,
 } from 'react-native';
 
 
-function App(): React.JSX.Element {
-
-
+function SixMonthCourses( navigation ): React.JSX.Element {
 
   return (
     <SafeAreaView>
       <StatusBar/>
       <ScrollView>
         <View>
-          <h1>Hi</h1>
+          <Text>Hi</Text>
+          <Button title='First Aid'/>
+          <Button title='Sewing'/>
+          <Button title='Landscaping'/>
+          <Button title='Life Skills'/>
         </View>
       </ScrollView>
     </SafeAreaView>
@@ -45,4 +48,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default App;
+export default SixMonthCourses;

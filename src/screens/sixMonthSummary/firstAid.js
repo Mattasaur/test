@@ -7,20 +7,22 @@ import {
   Text,
   useColorScheme,
   View,
-  Button
+  Button,
 } from 'react-native';
 
 
-function HomeScreen( navigation ): React.JSX.Element {
+function SixMonthCourses( navigation ): React.JSX.Element {
 
   return (
     <SafeAreaView>
-      <StatusBar
-      />
+      <StatusBar/>
       <ScrollView>
-        <View style={styles.sectionContainer}>
-          <Text style={styles.sectionTitle}>This is a test to view if our HomeScreen is working</Text>
-          <Button title='SixMonthCourse' style={styles.button}></Button>
+        <View>
+          <Text>Hi</Text>
+          <Button title='First Aid'/>
+          <Button title='Sewing'/>
+          <Button title='Landscaping'/>
+          <Button title='Life Skills'/>
         </View>
       </ScrollView>
     </SafeAreaView>
@@ -31,8 +33,6 @@ const styles = StyleSheet.create({
   sectionContainer: {
     marginTop: 32,
     paddingHorizontal: 24,
-    flex: 1, alignItems: 'center',
-    justifyContent: 'center'
   },
   sectionTitle: {
     fontSize: 24,
@@ -46,9 +46,6 @@ const styles = StyleSheet.create({
   highlight: {
     fontWeight: '700',
   },
-  button:{
-    marginTop: 24,
-  },
 });
 
-export default HomeScreen;
+export default SixMonthCourses;
