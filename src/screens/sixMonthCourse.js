@@ -9,23 +9,19 @@ import {
   View,
   Button,
 } from 'react-native';
+import SixMonthHome from './sixMonthSummary/sixMonthHome';
+import FirstAid from './sixMonthSummary/firstAid';
+import { createNativeStackNavigator } from '@react-navigation/native-stack'
+const Stack = createNativeStackNavigator();
 
 
-function SixMonthCourses( navigation ): React.JSX.Element {
+export default function SixMonthCourses( {navigation} ): React.JSX.Element {
 
   return (
-    <SafeAreaView>
-      <StatusBar/>
-      <ScrollView>
-        <View>
-          <Text>Hi</Text>
-          <Button title='First Aid'/>
-          <Button title='Sewing'/>
-          <Button title='Landscaping'/>
-          <Button title='Life Skills'/>
-        </View>
-      </ScrollView>
-    </SafeAreaView>
+<Stack.Navigator initialRouteName="sixMonthHome">
+  <Stack.Screen name="sixMonthHome" component={SixMonthHome}/>
+  <Stack.Screen name="First Aid" component={FirstAid}/>
+</Stack.Navigator>
   );
 }
 
@@ -47,5 +43,3 @@ const styles = StyleSheet.create({
     fontWeight: '700',
   },
 });
-
-export default SixMonthCourses;

@@ -9,25 +9,21 @@ import {
   View,
   Button,
 } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
 
-
-export default function FirstAid( {navigation} ): React.JSX.Element {
+export default function SixMonthHome( {navigation} ): React.JSX.Element {
 
   return (
+    
     <SafeAreaView>
       <StatusBar/>
       <ScrollView>
         <View>
-          <Text>First Aid</Text>
-          <Text>Fees: R1500</Text>
-<Text>Purpose: To provide first aid awareness and basic life support
-Content:
-• Wounds and bleeding
-• Burns and fractures
-• Emergency scene management
-• Cardio-Pulmonary Resuscitation (CPR)
-• Respiratory distress e.g., Choking, blocked airway</Text>
-          <Button title='Add to Quote'/>
+          <Text>Hi</Text>
+          <Button title='First Aid' onPress={()=>navigation.navigate("First Aid")}/>
+          <Button title='Sewing'/>
+          <Button title='Landscaping'/>
+          <Button title='Life Skills'/>
         </View>
       </ScrollView>
     </SafeAreaView>
