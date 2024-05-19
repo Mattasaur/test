@@ -21,12 +21,12 @@ export default function FirstAid( {navigation} ): React.JSX.Element {
           <Text>First Aid</Text>
           <Text>Fees: R1500</Text>
 <Text>Purpose: To provide first aid awareness and basic life support
-Content:
-• Wounds and bleeding
-• Burns and fractures
-• Emergency scene management
-• Cardio-Pulmonary Resuscitation (CPR)
-• Respiratory distress e.g., Choking, blocked airway</Text>
+Content:</Text>
+<Text>• Wounds and bleeding</Text>
+<Text>• Burns and fractures</Text>
+<Text>• Emergency scene management</Text>
+<Text>• Cardio-Pulmonary Resuscitation (CPR)</Text>
+<Text>• Respiratory distress e.g., Choking, blocked airway</Text>
           <Button title='Add to Quote'/>
         </View>
       </ScrollView>
