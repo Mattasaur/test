@@ -11,7 +11,7 @@ import {
 } from 'react-native';
 
 
-function App(): React.JSX.Element {
+function HomeScreen(): React.JSX.Element {
 
   return (
     <SafeAreaView>
@@ -19,6 +19,7 @@ function App(): React.JSX.Element {
       />
       <ScrollView>
         <View>
+          <Text>This is a test to view if our HomeScreen is working</Text>
           <Button title='SixMonthCourse'></Button>
         </View>
       </ScrollView>
@@ -45,4 +46,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default App;
+export default HomeScreen;
