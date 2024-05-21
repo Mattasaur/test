@@ -9,20 +9,20 @@ import {
   View,
   Button,
 } from 'react-native';
-import { NavigationContainer } from '@react-navigation/native'
-import SixMonthCourses from './sixMonthCourse';
 
-
-function HomeScreen( {navigation} ): React.JSX.Element {
-
+function HomeScreen({navigation}): React.JSX.Element {
   return (
     <SafeAreaView>
-      <StatusBar
-      />
+      <StatusBar />
       <ScrollView>
         <View style={styles.sectionContainer}>
-          <Text style={styles.sectionTitle}>This is a test to view if our HomeScreen is working</Text>
-          <Button title='SixMonthCourses' style={styles.button} onPress={()=>navigation.navigate("Six Month Courses")}></Button>
+          <Text style={styles.sectionTitle}>
+            This is a test to view if our HomeScreen is working
+          </Text>
+          <Button
+            title="SixMonthCourses"
+            style={styles.button}
+            onPress={() => navigation.navigate('Six Month Courses')}></Button>
         </View>
       </ScrollView>
     </SafeAreaView>
@@ -33,8 +33,9 @@ const styles = StyleSheet.create({
   sectionContainer: {
     marginTop: 32,
     paddingHorizontal: 24,
-    flex: 1, alignItems: 'center',
-    justifyContent: 'center'
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
   },
   sectionTitle: {
     fontSize: 24,
@@ -48,7 +49,7 @@ const styles = StyleSheet.create({
   highlight: {
     fontWeight: '700',
   },
-  button:{
+  button: {
     marginTop: 24,
   },
 });

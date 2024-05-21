@@ -9,21 +9,21 @@ import {
   View,
   Button,
 } from 'react-native';
-import { NavigationContainer } from '@react-navigation/native';
+import {NavigationContainer} from '@react-navigation/native';
 
-export default function SixMonthHome( {navigation} ): React.JSX.Element {
-
+export default function SixMonthHome({navigation}): React.JSX.Element {
   return (
-    
     <SafeAreaView>
-      <StatusBar/>
+      <StatusBar />
       <ScrollView>
-        <View>
-          <Text>Hi</Text>
-          <Button title='First Aid' onPress={()=>navigation.navigate("First Aid")}/>
-          <Button title='Sewing'/>
-          <Button title='Landscaping'/>
-          <Button title='Life Skills'/>
+        <View style={styles.sectionContainer}>
+          <Button
+            title="First Aid"
+            onPress={() => navigation.navigate('First Aid')}
+          />
+          <Button title="Sewing" />
+          <Button title="Landscaping" />
+          <Button title="Life Skills" />
         </View>
       </ScrollView>
     </SafeAreaView>

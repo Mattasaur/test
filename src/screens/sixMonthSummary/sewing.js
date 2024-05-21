@@ -10,7 +10,7 @@ import {
   Button,
 } from 'react-native';
 
-export default function FirstAid({navigation}): React.JSX.Element {
+export default function Sewing({navigation}): React.JSX.Element {
   return (
     <SafeAreaView>
       <StatusBar />
