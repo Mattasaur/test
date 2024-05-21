@@ -11,6 +11,7 @@ const Drawer = createDrawerNavigator();
 
 export default function App() {
   return (
+    // Main Drawer navigation - forms main nav for Home, Contact, about, etc
     <NavigationContainer>
       <Drawer.Navigator initialRouteName="Home">
         <Drawer.Screen name="Home" component={HomeScreen} options={{

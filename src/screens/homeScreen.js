@@ -12,6 +12,7 @@ import {
 
 function HomeScreen({navigation}): React.JSX.Element {
   return (
+    // Temp Homescreen to hold button to courses
     <SafeAreaView>
       <StatusBar />
       <ScrollView>
