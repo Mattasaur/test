@@ -20,8 +20,8 @@ export default function FirstAid({navigation}): React.JSX.Element {
           <Text style={styles.sectionDescription}>Fees: R1500</Text>
           <Text>
             Purpose: To provide first aid awareness and basic life support
-            Content:
           </Text>
+          <Text>Content:</Text>
           <Text>• Wounds and bleeding</Text>
           <Text>• Burns and fractures</Text>
           <Text>• Emergency scene management</Text>

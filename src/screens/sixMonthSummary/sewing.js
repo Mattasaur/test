@@ -16,17 +16,17 @@ export default function Sewing({navigation}): React.JSX.Element {
       <StatusBar />
       <ScrollView>
         <View style={styles.sectionContainer}>
-          <Text style={styles.sectionTitle}>First Aid</Text>
+          <Text style={styles.sectionTitle}>Sewing</Text>
           <Text style={styles.sectionDescription}>Fees: R1500</Text>
           <Text>
-            Purpose: To provide first aid awareness and basic life support
-            Content:
+            Purpose: To provide alterations and new garment tailoring services
           </Text>
-          <Text>• Wounds and bleeding</Text>
-          <Text>• Burns and fractures</Text>
-          <Text>• Emergency scene management</Text>
-          <Text>• Cardio-Pulmonary Resuscitation (CPR)</Text>
-          <Text>• Respiratory distress e.g., Choking, blocked airway</Text>
+          <Text>Content:</Text>
+          <Text>• Types of stitches</Text>
+          <Text>• Threading a sewing machine</Text>
+          <Text>• Sewing buttons, zips, hems and seams</Text>
+          <Text>• Alterations</Text>
+          <Text>• Designing and sewing new garments</Text>
           <Button
             title="Add to Quote"
             onPress={() => {

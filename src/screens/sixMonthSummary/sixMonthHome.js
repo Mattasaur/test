@@ -21,9 +21,18 @@ export default function SixMonthHome({navigation}): React.JSX.Element {
             title="First Aid"
             onPress={() => navigation.navigate('First Aid')}
           />
-          <Button title="Sewing" />
-          <Button title="Landscaping" />
-          <Button title="Life Skills" />
+          <Button
+            title="Sewing"
+            onPress={() => navigation.navigate('Sewing')}
+          />
+          <Button
+            title="Landscaping"
+            onPress={() => navigation.navigate('Landscaping')}
+          />
+          <Button
+            title="Life Skills"
+            onPress={() => navigation.navigate('Life Skills')}
+          />
         </View>
       </ScrollView>
     </SafeAreaView>

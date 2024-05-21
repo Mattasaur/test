@@ -16,17 +16,16 @@ export default function LifeSkills({navigation}): React.JSX.Element {
       <StatusBar />
       <ScrollView>
         <View style={styles.sectionContainer}>
-          <Text style={styles.sectionTitle}>First Aid</Text>
+          <Text style={styles.sectionTitle}>Life Skills</Text>
           <Text style={styles.sectionDescription}>Fees: R1500</Text>
           <Text>
-            Purpose: To provide first aid awareness and basic life support
-            Content:
+            Purpose: To provide skills to navigate basic life necessities
           </Text>
-          <Text>• Wounds and bleeding</Text>
-          <Text>• Burns and fractures</Text>
-          <Text>• Emergency scene management</Text>
-          <Text>• Cardio-Pulmonary Resuscitation (CPR)</Text>
-          <Text>• Respiratory distress e.g., Choking, blocked airway</Text>
+          <Text>Content:</Text>
+          <Text>• Opening a bank account</Text>
+          <Text>• Basic labour law (know your rights)</Text>
+          <Text>• Basic reading and writing literacy </Text>
+          <Text>• Basic numeric literacy</Text>
           <Button
             title="Add to Quote"
             onPress={() => {

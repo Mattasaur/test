@@ -16,17 +16,21 @@ export default function Landscaping({navigation}): React.JSX.Element {
       <StatusBar />
       <ScrollView>
         <View style={styles.sectionContainer}>
-          <Text style={styles.sectionTitle}>First Aid</Text>
+          <Text style={styles.sectionTitle}>Landscaping</Text>
           <Text style={styles.sectionDescription}>Fees: R1500</Text>
           <Text>
-            Purpose: To provide first aid awareness and basic life support
-            Content:
+            Purpose: To provide landscaping services for new and established
+            gardens
           </Text>
-          <Text>• Wounds and bleeding</Text>
-          <Text>• Burns and fractures</Text>
-          <Text>• Emergency scene management</Text>
-          <Text>• Cardio-Pulmonary Resuscitation (CPR)</Text>
-          <Text>• Respiratory distress e.g., Choking, blocked airway</Text>
+          <Text>Content:</Text>
+          <Text>• Indigenous and exotic plants and trees</Text>
+          <Text>
+            • Fixed structures (fountains, statues, benches, tables, built-in
+            braai)
+          </Text>
+          <Text>• Balancing of plants and trees in a garden</Text>
+          <Text>• Aesthetics of plant shapes and colours</Text>
+          <Text>• Garden layout</Text>
           <Button
             title="Add to Quote"
             onPress={() => {
