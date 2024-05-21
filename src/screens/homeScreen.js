@@ -21,8 +21,9 @@ function HomeScreen({navigation}): React.JSX.Element {
           </Text>
           <Button
             title="SixMonthCourses"
+            color={'#313b74'}
             style={styles.button}
-            onPress={() => navigation.navigate('Six Month Courses')}></Button>
+            onPress={() => navigation.navigate('Six Month Courses')}/>
         </View>
       </ScrollView>
     </SafeAreaView>

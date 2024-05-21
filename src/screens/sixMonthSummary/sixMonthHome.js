@@ -9,7 +9,6 @@ import {
   View,
   Button,
 } from 'react-native';
-import {NavigationContainer} from '@react-navigation/native';
 
 export default function SixMonthHome({navigation}): React.JSX.Element {
   return (
@@ -19,18 +18,26 @@ export default function SixMonthHome({navigation}): React.JSX.Element {
         <View style={styles.sectionContainer}>
           <Button
             title="First Aid"
+            color={'#313b74'}
+            style={styles.Button}
             onPress={() => navigation.navigate('First Aid')}
           />
           <Button
             title="Sewing"
+            color={'#313b74'}
+            style={styles.Button}
             onPress={() => navigation.navigate('Sewing')}
           />
           <Button
             title="Landscaping"
+            color={'#313b74'}
+            style={styles.Button}
             onPress={() => navigation.navigate('Landscaping')}
           />
           <Button
             title="Life Skills"
+            color={'#313b74'}
+            style={styles.Button}
             onPress={() => navigation.navigate('Life Skills')}
           />
         </View>
@@ -53,7 +60,7 @@ const styles = StyleSheet.create({
     fontSize: 18,
     fontWeight: '400',
   },
-  highlight: {
-    fontWeight: '700',
+  Button: {
+   paddingVertical: 24,
   },
 });

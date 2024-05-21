@@ -29,12 +29,14 @@ export default function FirstAid({navigation}): React.JSX.Element {
           <Text>• Respiratory distress e.g., Choking, blocked airway</Text>
           <Button
             title="Add to Quote"
+            color={'#313b74'}
             onPress={() => {
               console.log('Add to Quote works!');
             }}
           />
           <Button
             title="Return"
+            color={'#313b74'}
             onPress={() => {
               navigation.goBack();
             }}

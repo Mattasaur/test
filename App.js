@@ -13,8 +13,23 @@ export default function App() {
   return (
     <NavigationContainer>
       <Drawer.Navigator initialRouteName="Home">
-        <Drawer.Screen name="Home" component={HomeScreen} />
-        <Drawer.Screen name="Six Month Courses" component={SixMonthCourses}/>
+        <Drawer.Screen name="Home" component={HomeScreen} options={{
+          headerStyle: {
+            backgroundColor: '#313b74',
+          },
+          headerTintColor: '#fff',
+          headerTitleStyle: {
+            fontWeight: 'bold',
+          },}}/>
+        <Drawer.Screen name="Six Month Courses" component={SixMonthCourses} options={{
+          headerStyle: {
+            backgroundColor: '#313b74',
+          },
+          headerTintColor: '#fff',
+          headerTitleStyle: {
+            fontWeight: 'bold',
+          },}}
+        />
       </Drawer.Navigator>
     </NavigationContainer>
   );
